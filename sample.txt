@@ -1,0 +1,17 @@
+Create
+{
+  "name": "Sample Product",
+  "type": "Electronics",
+  "price": 99.99,
+  "expireDate": "2025-12-31"
+}
+
+update 
+/api/products/{id}
+{
+  "name": "Updated Product",
+  "type": "Home Appliance",
+  "price": 79.99,
+  "expireDate": "2026-06-30"
+}
+
